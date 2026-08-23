@@ -5,7 +5,7 @@ export interface ServiceItem {
   shortDescription: string;
   longDescription: string;
   iconName: string;
-  category: "automation" | "workforce" | "engineering" | "analytics" | "growth";
+  category: string;
   badge?: string;
   keyOutcomes: string[];
   deliverables: string[];
@@ -18,7 +18,7 @@ export interface AgentItem {
   id: string;
   name: string;
   role: string;
-  category: "orchestration" | "growth" | "operations" | "engineering";
+  category: string;
   description: string;
   coreSkills: string[];
   inputData: string[];
