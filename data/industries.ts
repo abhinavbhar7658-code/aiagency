@@ -1,0 +1,148 @@
+import { IndustryItem } from "@/types";
+
+export const industriesData: IndustryItem[] = [
+  {
+    id: "ecommerce",
+    slug: "ecommerce",
+    name: "E-Commerce & DTC",
+    headline: "Automate Support, Inventory Tracking & Dynamic Lead Re-engagement",
+    description: "Scale high-growth online retail operations with 24/7 AI shopping concierges, instant return/exchange routing, and multi-channel abandoned cart re-engagement.",
+    iconName: "ShoppingBag",
+    keyChallenges: [
+      "Surge in repetitive tier-1 support tickets during product launches and holidays",
+      "Cart abandonment without timely, personalized multi-channel follow-up",
+      "Manual product catalog copywriting and multi-locale SEO optimization",
+    ],
+    aiSolutions: [
+      "24/7 AI Support Agent directly connected to Shopify / WooCommerce",
+      "Autonomous WhatsApp & SMS re-engagement sequences tailored to cart contents",
+      "Automated product description generation and SEO schema publishing",
+    ],
+    typicalOutcomes: [
+      { metric: "72%", label: "Autonomous Ticket Resolution" },
+      { metric: "3.4x", label: "Faster Response Time" },
+      { metric: "+28%", label: "Recovered Cart Revenue" },
+    ],
+    recommendedAgents: ["Support Agent", "Sales Agent", "Content Agent", "Analytics Agent"],
+  },
+  {
+    id: "real-estate",
+    slug: "real-estate",
+    name: "Real Estate & PropTech",
+    headline: "Instant Inbound Lead Qualification & Tour Booking at Scale",
+    description: "Empower brokerage teams and property managers with AI voice and web agents that instantly respond to property inquiries, qualify buyer/tenant criteria, and book viewing appointments.",
+    iconName: "Building2",
+    keyChallenges: [
+      "Speed-to-lead failure: inquiries waiting hours for manual agent call-backs",
+      "High volume of unqualified prospects taking up broker time",
+      "Scattered listing data across MLS, CRM, and portal inboxes",
+    ],
+    aiSolutions: [
+      "Sub-minute conversational AI voice & text inquiry qualification",
+      "Automated calendar booking synced with broker availability",
+      "MLS-connected knowledge assistant providing instant property specifications",
+    ],
+    typicalOutcomes: [
+      { metric: "< 30s", label: "Inbound Lead Response" },
+      { metric: "+45%", label: "Viewing Booking Rate" },
+      { metric: "60 hrs", label: "Broker Time Saved / Month" },
+    ],
+    recommendedAgents: ["Sales Agent", "Voice Agent", "CRM Agent", "Automation Agent"],
+  },
+  {
+    id: "healthcare",
+    slug: "healthcare",
+    name: "Healthcare & MedTech",
+    headline: "HIPAA-Aware Patient Onboarding & Scheduling Automation",
+    description: "Streamline clinic operations with conversational appointment schedulers, intake paperwork assistants, and intelligent FAQ routing while protecting sensitive health data.",
+    iconName: "Activity",
+    keyChallenges: [
+      "Front desk phone congestion causing missed appointment inquiries",
+      "Repetitive patient intake and insurance pre-verification friction",
+      "High no-show rates due to lack of automated multi-touch reminders",
+    ],
+    aiSolutions: [
+      "24/7 conversational voice and web appointment scheduler",
+      "Automated intake form guidance and insurance documentation collection",
+      "Smart multi-channel reminder cadences reducing missed appointments",
+    ],
+    typicalOutcomes: [
+      { metric: "85%", label: "Call Congestion Drop" },
+      { metric: "-35%", label: "Patient No-Show Rate" },
+      { metric: "100%", label: "Intake Automation" },
+    ],
+    recommendedAgents: ["Support Agent", "Voice Agent", "Automation Agent", "QA Agent"],
+  },
+  {
+    id: "saas",
+    slug: "saas",
+    name: "SaaS & High-Growth Tech",
+    headline: "Autonomous Product Onboarding & Inbound Revenue Acceleration",
+    description: "Deploy technical AI agents that qualify enterprise prospects, assist users with product documentation, and sync product usage telemetry with sales reps.",
+    iconName: "Layers",
+    keyChallenges: [
+      "Inbound trial users dropping off without contextual guidance",
+      "Sales reps spending hours researching prospect tech stacks manually",
+      "Documentation discovery issues causing unnecessary engineering support tickets",
+    ],
+    aiSolutions: [
+      "Vector-grounded in-app technical documentation copilot",
+      "Automated firmographic lead scoring & Slack notifications to AEs",
+      "Churn risk telemetry alerts based on user activity drops",
+    ],
+    typicalOutcomes: [
+      { metric: "4.8x", label: "Faster Lead Routing" },
+      { metric: "60%", label: "Docs Query Deflection" },
+      { metric: "+32%", label: "Trial-to-Paid Velocity" },
+    ],
+    recommendedAgents: ["Strategy Agent", "Sales Agent", "Support Agent", "Analytics Agent"],
+  },
+  {
+    id: "professional-services",
+    slug: "professional-services",
+    name: "Professional Services & Legal",
+    headline: "Knowledge Retrieval, Client Onboarding & Proposal Automation",
+    description: "Accelerate billable output with AI document analysis, unified enterprise knowledge hubs, and automated client intake workflows for law firms, consultancies, and accounting practices.",
+    iconName: "Briefcase",
+    keyChallenges: [
+      "Hours lost manually searching through dense legal/financial precedents",
+      "Time-consuming proposal drafting and statement of work preparation",
+      "Manual client intake and document collection bottlenecks",
+    ],
+    aiSolutions: [
+      "Enterprise RAG knowledge hub citing exact internal precedent files",
+      "Automated proposal drafting engine trained on winning past bids",
+      "Structured client intake portal with automatic document verification",
+    ],
+    typicalOutcomes: [
+      { metric: "75%", label: "Faster Research Turnaround" },
+      { metric: "4x", label: "Proposal Generation Speed" },
+      { metric: "100%", label: "Audit Traceability" },
+    ],
+    recommendedAgents: ["Research Agent", "Content Agent", "Solution Agent", "QA Agent"],
+  },
+  {
+    id: "education",
+    slug: "education",
+    name: "Education & EdTech",
+    headline: "Admissions Concierge & 24/7 Student Support Systems",
+    description: "Scale prospective student recruitment, answer complex program prerequisites, and automate administrative enrollment workflows with AI assistants.",
+    iconName: "GraduationCap",
+    keyChallenges: [
+      "Admissions staff overwhelmed with repetitive prerequisite questions",
+      "Prospective students abandoning application forms mid-way",
+      "Limited support hours across international timezones",
+    ],
+    aiSolutions: [
+      "24/7 multilingual admissions guidance agent",
+      "Proactive application completion reminders and document checks",
+      "Instant syllabus and credit-transfer knowledge lookup",
+    ],
+    typicalOutcomes: [
+      { metric: "+40%", label: "Application Completion" },
+      { metric: "24/7", label: "Global Coverage" },
+      { metric: "90%", label: "Instant Answer Accuracy" },
+    ],
+    recommendedAgents: ["Support Agent", "Sales Agent", "Content Agent", "CRM Agent"],
+  },
+];

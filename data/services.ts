@@ -1,0 +1,76 @@
+import { ServiceItem } from "@/types";
+
+export const servicesData: ServiceItem[] = [
+  {
+    id: "content-ai",
+    slug: "content-ai",
+    title: "Content AI Agency",
+    shortDescription: "Social Media Posts, Carousels & Reels That Convert.",
+    longDescription: "Stop the scroll with high-converting social media posts, multi-slide educational carousels, ready-to-record short-form scripts, high-CTR thumbnails, and strategic monthly content calendars. We build content engines tailored to your brand voice to grow your audience and engagement on autopilot.",
+    iconName: "PenTool",
+    category: "growth",
+    badge: "Audience Growth",
+    keyOutcomes: [
+      "Consistent high-quality posts and platform-tailored captions per month",
+      "Strategic content planning with monthly performance reports",
+      "Reusable brand template kits and concrete improvement recommendations",
+    ],
+    deliverables: [
+      "12–30 custom posts and platform-tailored captions per month",
+      "2–8 high-retention Reels / Shorts scripts",
+      "High-CTR thumbnail graphics",
+      "30-day strategic content calendar with five content pillars",
+    ],
+    technologies: ["AI Image Generation", "Advanced Prompt Engineering", "Content Strategy", "Performance Analytics"],
+    idealFor: "Brands needing consistent, high-converting content and those suffering from the content bottleneck.",
+    implementationTime: "Continuous Monthly Retainer",
+  },
+  {
+    id: "automation-ai",
+    slug: "automation-ai",
+    title: "Automation AI Agency",
+    shortDescription: "Workflows, WhatsApp Bots & CRM Automation.",
+    longDescription: "Eliminate repetitive manual tasks and slow response times. DWD builds automated multi-step AI pipelines across WhatsApp, CRM, Email and Google Sheets. We connect your business tools to create scalable, self-sustaining operations that reduce overhead.",
+    iconName: "Zap",
+    category: "automation",
+    badge: "Efficiency",
+    keyOutcomes: [
+      "Automated lead qualification and fast email follow-ups",
+      "Knowledge-grounded support bots handling repetitive customer queries",
+      "Failure fallback paths and human approval gates for safety",
+    ],
+    deliverables: [
+      "Rapid WhatsApp and website lead qualification workflows",
+      "n8n / Make / Zapier automation integration",
+      "Multi-touch email follow-up sequences",
+      "CRM automation, lead routing, and appointment workflows",
+    ],
+    technologies: ["n8n", "Make", "Zapier", "WhatsApp API", "CRM APIs", "AI Agents"],
+    idealFor: "Operations swamped with manual tasks, slow responses, and disconnected business systems.",
+    implementationTime: "2 to 4 weeks per workflow",
+  },
+  {
+    id: "web-ai-systems",
+    slug: "web-ai-systems",
+    title: "Web & AI Systems",
+    shortDescription: "High-Converting Websites, Chatbots & Voice Agents.",
+    longDescription: "Upgrade from generic templates to fast, conversion-focused Next.js websites equipped with AI chatbots, lead capture funnels, and voice-agent experiences. We don't just build pages; we build interconnected AI systems engineered to capture and convert.",
+    iconName: "Globe",
+    category: "engineering",
+    badge: "Digital Presence",
+    keyOutcomes: [
+      "High-converting Next.js implementation with responsive UX",
+      "CRM-ready architecture with conversational lead qualification",
+      "Full code ownership and extensible foundations for future Agency OS",
+    ],
+    deliverables: [
+      "Up to 5 pages of custom conversion-focused website",
+      "SEO-ready structure and modern UI components",
+      "Brand-voiced FAQ chatbot & conversational decision tree",
+      "Conversational voice-agent script and telephony routing architecture",
+    ],
+    technologies: ["Next.js", "React", "TypeScript", "Tailwind CSS", "shadcn/ui", "Supabase", "Vercel"],
+    idealFor: "Businesses needing a modern storefront connected directly to an intelligent back-office system.",
+    implementationTime: "4 to 6 weeks",
+  }
+];
