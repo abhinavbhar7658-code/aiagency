@@ -100,7 +100,7 @@ export function Navbar() {
  className={cn("flex items-center gap-1.5 px-3.5 py-2 rounded-xl text-sm font-medium whitespace-nowrap transition-colors focus:outline-none",
  isActive
  ?"text-primary bg-primary/10 font-semibold"
- :"text-foreground dark:text-muted-foreground hover:text-slate-950 dark:hover:text-foreground hover:bg-secondary dark:hover:bg-background"
+ :"text-foreground dark:text-muted-foreground hover:text-slate-950 dark:hover:text-foreground hover:bg-muted dark:hover:bg-background"
  )}
  >
  <span>{item.label}</span>
@@ -115,12 +115,12 @@ export function Navbar() {
  >
  <div className="rounded-2xl border border-border dark:border-border bg-card dark:bg-background p-2.5 shadow-2xl shadow-black/10 dark:shadow-black/80 space-y-1">
  {item.children.map((sub) => (
- <Link
- key={sub.href}
- href={sub.href}
- className="flex items-start gap-3 p-2.5 rounded-xl hover:bg-secondary dark:hover:bg-background transition-all group/sub"
- >
- <div className="p-2 rounded-lg bg-secondary dark:bg-background border border-border dark:border-border group-hover/sub:border-primary/40 transition-colors shrink-0">
+                        <Link
+                          key={sub.href}
+                          href={sub.href}
+                          className="flex items-start gap-3 p-2.5 rounded-xl hover:bg-muted dark:hover:bg-background transition-all group/sub"
+                        >
+                          <div className="p-2 rounded-lg bg-muted dark:bg-background border border-border dark:border-border group-hover/sub:border-primary/40 transition-colors shrink-0">
  {iconMap[sub.href] || <Sparkles className="w-4 h-4 text-primary" />}
  </div>
  <div className="flex-1 min-w-0">
@@ -147,15 +147,15 @@ export function Navbar() {
  }
 
  return (
- <Link
- key={item.href}
- href={item.href}
- className={cn("flex items-center gap-1.5 px-3 py-2 rounded-xl text-sm font-medium whitespace-nowrap transition-colors",
- isActive
- ?"text-primary bg-primary/10 font-semibold"
- :"text-foreground dark:text-muted-foreground hover:text-slate-950 dark:hover:text-foreground hover:bg-secondary dark:hover:bg-background"
- )}
- >
+                        <Link
+                          key={item.href}
+                          href={item.href}
+                          className={cn("flex items-center gap-1.5 px-3 py-2 rounded-xl text-sm font-medium whitespace-nowrap transition-colors",
+                            isActive
+                              ? "text-primary bg-primary/10 font-semibold"
+                              : "text-foreground dark:text-muted-foreground hover:text-slate-950 dark:hover:text-foreground hover:bg-muted dark:hover:bg-background"
+                          )}
+                        >
  <span>{item.label}</span>
  {item.badge && (
  <Badge variant="default" className="text-[10px] py-0 px-1.5 h-4">
@@ -191,11 +191,11 @@ export function Navbar() {
  <Link href="/book-call">Book Call</Link>
  </Button>
 
- <button
- onClick={() => setIsMobileOpen(true)}
- className="p-2 rounded-xl border border-border dark:border-border bg-secondary dark:bg-background text-foreground dark:text-muted-foreground hover:text-slate-950 dark:hover:text-foreground transition-colors focus:outline-none"
- aria-label="Open mobile navigation menu"
- >
+              <button
+                onClick={() => setIsMobileOpen(true)}
+                className="p-2 rounded-xl border border-border dark:border-border bg-muted dark:bg-background text-foreground dark:text-muted-foreground hover:text-slate-950 dark:hover:text-foreground transition-colors focus:outline-none"
+                aria-label="Open mobile navigation menu"
+              >
  <Menu className="w-5 h-5" />
  </button>
  </div>
