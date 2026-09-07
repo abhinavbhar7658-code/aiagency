@@ -36,7 +36,7 @@ export const navigationData: NavItem[] = [
       },
       {
         label: "Cybersecurity & Compliance",
-        href: "/#cybersecurity",
+        href: "/services/cybersecurity",
         description: "Security assessments, TPRM, Data Privacy, and ISO readiness support.",
       }
     ],
@@ -97,6 +97,7 @@ export const navigationData: NavItem[] = [
 export const footerLinks = {
   company: [
     { label: "About", href: "/about" },
+    { label: "Careers", href: "/careers" },
     { label: "How It Works", href: "/how-it-works" },
     { label: "Pricing", href: "/pricing" },
     { label: "Contact", href: "/contact" },
