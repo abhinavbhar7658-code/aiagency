@@ -34,7 +34,43 @@ export const navigationData: NavItem[] = [
         href: "/services/web-ai-systems",
         description: "High-converting web applications, FAQ chatbots, and voice telephony agents.",
       },
+      {
+        label: "Cybersecurity & Compliance",
+        href: "/#cybersecurity",
+        description: "Security assessments, TPRM, Data Privacy, and ISO readiness support.",
+      }
     ],
+  },
+  {
+    label: "Products",
+    href: "/products",
+    children: [
+      {
+        label: "DLP",
+        href: "/products/dlp",
+        description: "Data Loss Prevention to protect sensitive business information.",
+      },
+      {
+        label: "MFA",
+        href: "/products/mfa",
+        description: "Multi-Factor Authentication for strengthened identity verification.",
+      },
+      {
+        label: "SSO",
+        href: "/products/sso",
+        description: "Single Sign-On for streamlined access to business applications.",
+      },
+      {
+        label: "PAM",
+        href: "/products/pam",
+        description: "Privileged Access Management for critical systems.",
+      },
+      {
+        label: "IAM",
+        href: "/products/iam",
+        description: "Identity & Access Management across the enterprise.",
+      }
+    ]
   },
   {
     label: "AI Agents",

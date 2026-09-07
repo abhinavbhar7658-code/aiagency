@@ -24,7 +24,20 @@ import {
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 
-const iconMap: Record<string, React.ReactNode> = {"/ai-agents": <Bot className="w-4 h-4 text-primary" />,"/services/ai-automation": <Zap className="w-4 h-4 text-primary" />,"/services/ai-customer-support": <Headphones className="w-4 h-4 text-primary" />,"/services/ai-lead-generation": <Sparkles className="w-4 h-4 text-primary" />,"/services/ai-voice-agents": <PhoneCall className="w-4 h-4 text-amber-400" />,"/services/ai-web-development": <Globe className="w-4 h-4 text-primary" />,"/services/ai-analytics": <BarChart3 className="w-4 h-4 text-purple-400" />,
+const iconMap: Record<string, React.ReactNode> = {
+  "/ai-agents": <Bot className="w-4 h-4 text-primary" />,
+  "/services/ai-automation": <Zap className="w-4 h-4 text-primary" />,
+  "/services/ai-customer-support": <Headphones className="w-4 h-4 text-primary" />,
+  "/services/ai-lead-generation": <Sparkles className="w-4 h-4 text-primary" />,
+  "/services/ai-voice-agents": <PhoneCall className="w-4 h-4 text-amber-400" />,
+  "/services/ai-web-development": <Globe className="w-4 h-4 text-primary" />,
+  "/services/ai-analytics": <BarChart3 className="w-4 h-4 text-purple-400" />,
+  "/#cybersecurity": <ShieldCheck className="w-4 h-4 text-primary" />,
+  "/products/dlp": <ShieldCheck className="w-4 h-4 text-primary" />,
+  "/products/mfa": <ShieldCheck className="w-4 h-4 text-primary" />,
+  "/products/sso": <ShieldCheck className="w-4 h-4 text-primary" />,
+  "/products/pam": <ShieldCheck className="w-4 h-4 text-primary" />,
+  "/products/iam": <ShieldCheck className="w-4 h-4 text-primary" />,
 };
 
 export function Navbar() {
