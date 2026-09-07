@@ -6,6 +6,8 @@ import { AiAgencyOverview } from "@/components/sections/AiAgencyOverview";
 import { AiSolutionsSection } from "@/components/sections/AiSolutionsSection";
 import { ServiceComparisonSection } from "@/components/sections/ServiceComparisonSection";
 import { BusinessOutcomesSection } from "@/components/sections/BusinessOutcomesSection";
+import { CybersecuritySection } from "@/components/sections/CybersecuritySection";
+import { CybersecurityProductsSection } from "@/components/sections/CybersecurityProductsSection";
 import { FinalCTASection } from "@/components/sections/FinalCTASection";
 
 export const metadata = {
@@ -23,6 +25,8 @@ export default function HomePage() {
       <AiSolutionsSection />
       <ServiceComparisonSection />
       <BusinessOutcomesSection />
+      <CybersecuritySection />
+      <CybersecurityProductsSection />
       <FinalCTASection />
     </>
   );

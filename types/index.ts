@@ -14,6 +14,22 @@ export interface ServiceItem {
   implementationTime: string;
 }
 
+export interface ProductItem {
+  id: string;
+  slug: string;
+  title: string;
+  fullName: string;
+  shortDescription: string;
+  longDescription: string;
+  iconName: string;
+  badge?: string;
+  keyFeatures: string[];
+  benefits: string[];
+  technologies: string[];
+  idealFor: string;
+  implementationTime: string;
+}
+
 export interface AgentItem {
   id: string;
   name: string;
