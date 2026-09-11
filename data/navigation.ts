@@ -81,22 +81,32 @@ export const navigationData: NavItem[] = [
     href: "/industries",
   },
   {
-    label: "How It Works",
-    href: "/how-it-works",
-  },
-  {
-    label: "Pricing",
-    href: "/pricing",
-  },
-  {
-    label: "Uiverse UI",
-    href: "/uiverse",
-    badge: "New",
-  },
-  {
-    label: "About",
+    label: "Company",
     href: "/about",
-  },
+    children: [
+      {
+        label: "How It Works",
+        href: "/how-it-works",
+        description: "Learn about our process and methodology.",
+      },
+      {
+        label: "Pricing",
+        href: "/pricing",
+        description: "Transparent pricing plans for all business sizes.",
+      },
+      {
+        label: "About Us",
+        href: "/about",
+        description: "Our mission, team, and story.",
+      },
+      {
+        label: "Uiverse UI",
+        href: "/uiverse",
+        description: "Showcase of our attractive UI components.",
+        badge: "New",
+      }
+    ]
+  }
 ];
 
 export const footerLinks = {
