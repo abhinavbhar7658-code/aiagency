@@ -98,12 +98,6 @@ export const navigationData: NavItem[] = [
         label: "About Us",
         href: "/about",
         description: "Our mission, team, and story.",
-      },
-      {
-        label: "Uiverse UI",
-        href: "/uiverse",
-        description: "Showcase of our attractive UI components.",
-        badge: "New",
       }
     ]
   }
