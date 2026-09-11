@@ -89,6 +89,11 @@ export const navigationData: NavItem[] = [
     href: "/pricing",
   },
   {
+    label: "Uiverse UI",
+    href: "/uiverse",
+    badge: "New",
+  },
+  {
     label: "About",
     href: "/about",
   },
